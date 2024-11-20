@@ -1,0 +1,18 @@
+@import com.jabaddon.learning.jte.testjte.Page
+
+@param page: Page
+
+<head>
+    <meta name="description" content="${page.description}">
+    <title>${page.title}</title>
+    <script src="https://unpkg.com/htmx.org@2.0.3"></script>
+</head>
+<body>
+    <h1>${page.title}</h1>
+    <h2>${page.description}</h2>
+
+    <button hx-get="/hello" hx-trigger="click" hx-target="#hello">Click me and say hello!</button>
+    <button hx-get="/vc/hello" hx-trigger="click" hx-target="#hello">Click me and say hello with ViewComponents!</button>
+
+    <div id="hello"></div>
+</body>

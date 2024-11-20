@@ -1,0 +1,10 @@
+@param todoListView: com.jabaddon.learning.jte.testjte.TODOList.TODOListView
+
+<ol class="todo_list">
+   @for (item in todoListView.items)
+       ${todoListView.item.render(item)}
+   @else
+       <p>Seems lonely in here, what are you up to?</p>
+   @endfor
+</ol>
+

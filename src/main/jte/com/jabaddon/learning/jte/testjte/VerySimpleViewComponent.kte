@@ -1,0 +1,3 @@
+@param verySimpleView: com.jabaddon.learning.jte.testjte.VerySimpleViewComponent.VerySimpleView
+
+<div>${verySimpleView.message}</div>

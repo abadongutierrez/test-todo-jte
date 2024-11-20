@@ -1,0 +1,5 @@
+@import com.jabaddon.learning.jte.testjte.Page
+
+@param page: Page
+
+<div>${page.description}</div>
