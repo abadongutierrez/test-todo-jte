@@ -2,7 +2,7 @@
 
 ## Description
 
-Test project to learn how to use
+Project in Kotlin and Spring Boot to learn how to use:
 - [JTE](https://jte.gg/)
 - [Spring ViewComponents](https://github.com/tschuehly/spring-view-component)
 - [HTMX](https://htmx.org/)
