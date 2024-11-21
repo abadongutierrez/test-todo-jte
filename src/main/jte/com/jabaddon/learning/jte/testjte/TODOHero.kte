@@ -1,11 +1,11 @@
-@param todoHeroView: com.jabaddon.learning.jte.testjte.TODOHero.TODOHeroView
+@param TODOHeroView: com.jabaddon.learning.jte.testjte.TODOHero.TODOHeroView
 
-<section class="todohero_section">
+<section class="todohero_section" hx-get="/fragments/todohero" hx-trigger="todo-completed from:body" hx-target="this" hx-swap="outerHTML">
     <div>
         <p class="text_large">Task Done</p>
         <p class="text_small">Keep it up</p>
     </div>
     <div>
-        ${todoHeroView.completed}/${todoHeroView.total}
+        ${TODOHeroView.completed}/${TODOHeroView.total}
     </div>
 </section>

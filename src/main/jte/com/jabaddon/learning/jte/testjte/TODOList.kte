@@ -1,8 +1,8 @@
-@param todoListView: com.jabaddon.learning.jte.testjte.TODOList.TODOListView
+@param TODOListView: com.jabaddon.learning.jte.testjte.TODOList.TODOListView
 
-<ol class="todo_list">
-   @for (item in todoListView.items)
-       ${todoListView.item.render(item)}
+<ol class="todo_list" hx-get="/fragments/todo" hx-trigger="todo-added from:body" hx-target="this" hx-swap="outerHTML">
+   @for (item in TODOListView.items)
+       ${TODOListView.item.render(item)}
    @else
        <p>Seems lonely in here, what are you up to?</p>
    @endfor
