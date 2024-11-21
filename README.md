@@ -15,6 +15,6 @@ This project is replicating the ToDo App created in: https://www.freecodecamp.or
 ./gradlew bootRun
 ```
 
-NOTE: Maybe you will need to modify `gradlew` so it can be executed (`chmod 7444 gradlew`)
+NOTE: Maybe you will need to modify `gradlew` so it can be executed (`chmod 744 gradlew`)
 
 Then go to: `http://localhost:8080/todo`
