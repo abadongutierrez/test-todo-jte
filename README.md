@@ -16,3 +16,5 @@ This project is replicating the ToDo App created in: https://www.freecodecamp.or
 ```
 
 NOTE: Maybe you will need to modify `gradlew` so it can be executed (`chmod 7444 gradlew`)
+
+Then go to: `http://localhost:8080/todo`
