@@ -8,3 +8,11 @@ Project in Kotlin and Spring Boot to learn how to use:
 - [HTMX](https://htmx.org/)
 
 This project is replicating the ToDo App created in: https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-reactjs/
+
+## Run the app
+
+```
+./gradlew bootRun
+```
+
+NOTE: Maybe you will need to modify `gradlew` so it can be executed (`chmod 7444 gradlew`)
